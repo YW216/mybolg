@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>欢迎来到我的网站</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      min-height: 100vh;
+      color: #ffffff;
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80")
+        center / cover no-repeat;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .content {
+      max-width: 760px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.8;
+      margin-bottom: 32px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      border-radius: 6px;
+      background-color: #2f80ed;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #1c64c8;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      p {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="content">
+      <h1>欢迎来到我的网站</h1>
+      <p>
+        这里是一个简洁、现代的网站欢迎页。你可以在这里展示项目介绍、
+        个人主页、产品入口，或者任何你想让访问者第一眼看到的内容。
+      </p>
+      <a href="#" class="btn">开始探索</a>
+    </section>
+  </main>
+</body>
+</html>
